@@ -120,7 +120,7 @@ public:
                                           const vector<geometry_msgs::Point32>& features_2d)
     {
         // 0.1 初始化存储特征点深度的容器，大小为特征点数量，初值都为-1；
-        sensor_msgs::ChannelFloat32 ;
+        sensor_msgs::ChannelFloat32 depth_of_point;
         depth_of_point.name = "depth";
         depth_of_point.values.resize(features_2d.size(), -1);
 

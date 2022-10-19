@@ -144,7 +144,7 @@ void img_callback(const sensor_msgs::ImageConstPtr &img_msg)
         sensor_msgs::ChannelFloat32 id_of_point; // 点id
         sensor_msgs::ChannelFloat32 u_of_point;  //特征点归一化坐标x
         sensor_msgs::ChannelFloat32 v_of_point;  //特征点归一化坐标y
-        sensor_msgs::ChannelFloat32 velocity_x_of_point//x方向速度
+        sensor_msgs::ChannelFloat32 velocity_x_of_point;//x方向速度
         sensor_msgs::ChannelFloat32 velocity_y_of_point;//y方向速度
 
         //存放时间戳和坐标系名称
